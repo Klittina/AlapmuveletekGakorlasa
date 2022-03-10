@@ -13,6 +13,19 @@ public class CsoportMunkaSzamolas {
     }
 
     public static void main(String[] args) {
+        System.out.println("Milyen műveletet szeretne gyakorolni?");
+        String gyakorlojel = jel.nextLine();
+        if(gyakorlojel.equals("+")){
+            osszead();
+        }
+        else if(gyakorlojel.equals("-")){
+            kivonas();
+        }
+        else if(gyakorlojel.toLowerCase().equals("x")){
+            szorzas();
+        }
+        else if(gyakorlojel.equals("/")){
+            osztas();
+        }
     }
-    
 }
