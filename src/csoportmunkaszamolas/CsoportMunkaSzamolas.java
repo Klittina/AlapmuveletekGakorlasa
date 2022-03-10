@@ -1,5 +1,6 @@
 package csoportmunkaszamolas;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class CsoportMunkaSzamolas {
@@ -11,7 +12,6 @@ public class CsoportMunkaSzamolas {
     }
 
     public static void main(String[] args) {
-        
     }
     
 }
